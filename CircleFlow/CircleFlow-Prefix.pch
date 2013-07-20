@@ -1,0 +1,48 @@
+//
+// Prefix header for all source files of the 'CircleFlow' target in the 'CircleFlow' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <QuartzCore/QuartzCore.h>
+#endif
+
+
+// define some macros
+#ifndef __has_feature
+#define __has_feature(x) 0
+#endif
+#ifndef __has_extension
+#define __has_extension __has_feature // Compatibility with pre-3.0 compilers.
+#endif
+
+#if __has_feature(objc_arc) && __clang_major__ >= 3
+#define GK_ARC_ENABLED 1
+#endif // __has_feature(objc_arc)
+
+#if GK_ARC_ENABLED
+#define GK_RETAIN(xx) (xx)
+#define GK_RELEASE(xx)  xx = nil
+#define GK_AUTORELEASE(xx)  (xx)
+#else
+#define GK_RETAIN(xx)           [xx retain]
+#define GK_RELEASE(xx)          [xx release], xx = nil
+#define GK_AUTORELEASE(xx)      [xx autorelease]
+#endif
+
+#ifndef GKLog
+#if DEBUG
+# define GKLog(fmt, ...) NSLog((@"%s [Line %d] " fmt),__PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#define GKLog(fmt, ...)
+#endif
+#endif
+
+#define SHOW_CMD GKLog(@"%@", NSStringFromSelector(_cmd))

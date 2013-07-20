@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B262E3FA15CA402C00A261D3 /* DKCircleFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = B262E3F915CA402C00A261D3 /* DKCircleFlowView.m */; };
+		B269082415C90CED004FA84A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B269082315C90CED004FA84A /* UIKit.framework */; };
+		B269082615C90CED004FA84A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B269082515C90CED004FA84A /* Foundation.framework */; };
+		B269082815C90CED004FA84A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B269082715C90CED004FA84A /* CoreGraphics.framework */; };
+		B269082E15C90CED004FA84A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B269082C15C90CED004FA84A /* InfoPlist.strings */; };
+		B269083015C90CED004FA84A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B269082F15C90CED004FA84A /* main.m */; };
+		B269083415C90CED004FA84A /* DKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B269083315C90CED004FA84A /* DKAppDelegate.m */; };
+		B269083715C90CED004FA84A /* DKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B269083615C90CED004FA84A /* DKViewController.m */; };
+		B269083A15C90CED004FA84A /* DKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B269083815C90CED004FA84A /* DKViewController.xib */; };
+		B269084915C91DC9004FA84A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B269084815C91DC9004FA84A /* QuartzCore.framework */; };
+		B2A6CE5615CB7D5600930DD1 /* Text01.png in Resources */ = {isa = PBXBuildFile; fileRef = B2A6CE4A15CB7D5500930DD1 /* Text01.png */; };
+		B2A6CE5715CB7D5600930DD1 /* Text02.png in Resources */ = {isa = PBXBuildFile; fileRef = B2A6CE4B15CB7D5500930DD1 /* Text02.png */; };
+		B2A6CE5815CB7D5600930DD1 /* Text03.png in Resources */ = {isa = PBXBuildFile; fileRef = B2A6CE4C15CB7D5500930DD1 /* Text03.png */; };
+		B2A6CE5915CB7D5600930DD1 /* Text04.png in Resources */ = {isa = PBXBuildFile; fileRef = B2A6CE4D15CB7D5500930DD1 /* Text04.png */; };
+		B2A6CE5A15CB7D5600930DD1 /* Text05.png in Resources */ = {isa = PBXBuildFile; fileRef = B2A6CE4E15CB7D5600930DD1 /* Text05.png */; };
+		B2A6CE5B15CB7D5600930DD1 /* Text06.png in Resources */ = {isa = PBXBuildFile; fileRef = B2A6CE4F15CB7D5600930DD1 /* Text06.png */; };
+		B2A6CE5C15CB7D5600930DD1 /* Text07.png in Resources */ = {isa = PBXBuildFile; fileRef = B2A6CE5015CB7D5600930DD1 /* Text07.png */; };
+		B2A6CE5D15CB7D5600930DD1 /* Text08.png in Resources */ = {isa = PBXBuildFile; fileRef = B2A6CE5115CB7D5600930DD1 /* Text08.png */; };
+		B2A6CE5E15CB7D5600930DD1 /* Text09.png in Resources */ = {isa = PBXBuildFile; fileRef = B2A6CE5215CB7D5600930DD1 /* Text09.png */; };
+		B2A6CE5F15CB7D5600930DD1 /* Text10.png in Resources */ = {isa = PBXBuildFile; fileRef = B2A6CE5315CB7D5600930DD1 /* Text10.png */; };
+		B2A6CE6015CB7D5600930DD1 /* Text11.png in Resources */ = {isa = PBXBuildFile; fileRef = B2A6CE5415CB7D5600930DD1 /* Text11.png */; };
+		B2A6CE6115CB7D5600930DD1 /* Text12.png in Resources */ = {isa = PBXBuildFile; fileRef = B2A6CE5515CB7D5600930DD1 /* Text12.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B262E3F815CA402C00A261D3 /* DKCircleFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKCircleFlowView.h; sourceTree = "<group>"; };
+		B262E3F915CA402C00A261D3 /* DKCircleFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKCircleFlowView.m; sourceTree = "<group>"; };
+		B269081F15C90CED004FA84A /* CircleFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B269082315C90CED004FA84A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B269082515C90CED004FA84A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B269082715C90CED004FA84A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B269082B15C90CED004FA84A /* CircleFlow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CircleFlow-Info.plist"; sourceTree = "<group>"; };
+		B269082D15C90CED004FA84A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B269082F15C90CED004FA84A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B269083115C90CED004FA84A /* CircleFlow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CircleFlow-Prefix.pch"; sourceTree = "<group>"; };
+		B269083215C90CED004FA84A /* DKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKAppDelegate.h; sourceTree = "<group>"; };
+		B269083315C90CED004FA84A /* DKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKAppDelegate.m; sourceTree = "<group>"; };
+		B269083515C90CED004FA84A /* DKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKViewController.h; sourceTree = "<group>"; };
+		B269083615C90CED004FA84A /* DKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKViewController.m; sourceTree = "<group>"; };
+		B269083915C90CED004FA84A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DKViewController.xib; sourceTree = "<group>"; };
+		B269084815C91DC9004FA84A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B2A6CE4A15CB7D5500930DD1 /* Text01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Text01.png; sourceTree = "<group>"; };
+		B2A6CE4B15CB7D5500930DD1 /* Text02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Text02.png; sourceTree = "<group>"; };
+		B2A6CE4C15CB7D5500930DD1 /* Text03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Text03.png; sourceTree = "<group>"; };
+		B2A6CE4D15CB7D5500930DD1 /* Text04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Text04.png; sourceTree = "<group>"; };
+		B2A6CE4E15CB7D5600930DD1 /* Text05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Text05.png; sourceTree = "<group>"; };
+		B2A6CE4F15CB7D5600930DD1 /* Text06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Text06.png; sourceTree = "<group>"; };
+		B2A6CE5015CB7D5600930DD1 /* Text07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Text07.png; sourceTree = "<group>"; };
+		B2A6CE5115CB7D5600930DD1 /* Text08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Text08.png; sourceTree = "<group>"; };
+		B2A6CE5215CB7D5600930DD1 /* Text09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Text09.png; sourceTree = "<group>"; };
+		B2A6CE5315CB7D5600930DD1 /* Text10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Text10.png; sourceTree = "<group>"; };
+		B2A6CE5415CB7D5600930DD1 /* Text11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Text11.png; sourceTree = "<group>"; };
+		B2A6CE5515CB7D5600930DD1 /* Text12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Text12.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B269081C15C90CED004FA84A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B269084915C91DC9004FA84A /* QuartzCore.framework in Frameworks */,
+				B269082415C90CED004FA84A /* UIKit.framework in Frameworks */,
+				B269082615C90CED004FA84A /* Foundation.framework in Frameworks */,
+				B269082815C90CED004FA84A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B269081415C90CED004FA84A = {
+			isa = PBXGroup;
+			children = (
+				B269082915C90CED004FA84A /* CircleFlow */,
+				B269082215C90CED004FA84A /* Frameworks */,
+				B269082015C90CED004FA84A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B269082015C90CED004FA84A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B269081F15C90CED004FA84A /* CircleFlow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B269082215C90CED004FA84A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B269084815C91DC9004FA84A /* QuartzCore.framework */,
+				B269082315C90CED004FA84A /* UIKit.framework */,
+				B269082515C90CED004FA84A /* Foundation.framework */,
+				B269082715C90CED004FA84A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B269082915C90CED004FA84A /* CircleFlow */ = {
+			isa = PBXGroup;
+			children = (
+				B269083215C90CED004FA84A /* DKAppDelegate.h */,
+				B269083315C90CED004FA84A /* DKAppDelegate.m */,
+				B269083515C90CED004FA84A /* DKViewController.h */,
+				B269083615C90CED004FA84A /* DKViewController.m */,
+				B269083815C90CED004FA84A /* DKViewController.xib */,
+				B262E3F815CA402C00A261D3 /* DKCircleFlowView.h */,
+				B262E3F915CA402C00A261D3 /* DKCircleFlowView.m */,
+				B2A6CE4A15CB7D5500930DD1 /* Text01.png */,
+				B2A6CE4B15CB7D5500930DD1 /* Text02.png */,
+				B2A6CE4C15CB7D5500930DD1 /* Text03.png */,
+				B2A6CE4D15CB7D5500930DD1 /* Text04.png */,
+				B2A6CE4E15CB7D5600930DD1 /* Text05.png */,
+				B2A6CE4F15CB7D5600930DD1 /* Text06.png */,
+				B2A6CE5015CB7D5600930DD1 /* Text07.png */,
+				B2A6CE5115CB7D5600930DD1 /* Text08.png */,
+				B2A6CE5215CB7D5600930DD1 /* Text09.png */,
+				B2A6CE5315CB7D5600930DD1 /* Text10.png */,
+				B2A6CE5415CB7D5600930DD1 /* Text11.png */,
+				B2A6CE5515CB7D5600930DD1 /* Text12.png */,
+				B269082A15C90CED004FA84A /* Supporting Files */,
+			);
+			path = CircleFlow;
+			sourceTree = "<group>";
+		};
+		B269082A15C90CED004FA84A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B269082B15C90CED004FA84A /* CircleFlow-Info.plist */,
+				B269082C15C90CED004FA84A /* InfoPlist.strings */,
+				B269082F15C90CED004FA84A /* main.m */,
+				B269083115C90CED004FA84A /* CircleFlow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B269081E15C90CED004FA84A /* CircleFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B269083D15C90CED004FA84A /* Build configuration list for PBXNativeTarget "CircleFlow" */;
+			buildPhases = (
+				B269081B15C90CED004FA84A /* Sources */,
+				B269081C15C90CED004FA84A /* Frameworks */,
+				B269081D15C90CED004FA84A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleFlow;
+			productName = CircleFlow;
+			productReference = B269081F15C90CED004FA84A /* CircleFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B269081615C90CED004FA84A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DK;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "CHIEN-MING LEE";
+			};
+			buildConfigurationList = B269081915C90CED004FA84A /* Build configuration list for PBXProject "CircleFlow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B269081415C90CED004FA84A;
+			productRefGroup = B269082015C90CED004FA84A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B269081E15C90CED004FA84A /* CircleFlow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B269081D15C90CED004FA84A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B269082E15C90CED004FA84A /* InfoPlist.strings in Resources */,
+				B269083A15C90CED004FA84A /* DKViewController.xib in Resources */,
+				B2A6CE5615CB7D5600930DD1 /* Text01.png in Resources */,
+				B2A6CE5715CB7D5600930DD1 /* Text02.png in Resources */,
+				B2A6CE5815CB7D5600930DD1 /* Text03.png in Resources */,
+				B2A6CE5915CB7D5600930DD1 /* Text04.png in Resources */,
+				B2A6CE5A15CB7D5600930DD1 /* Text05.png in Resources */,
+				B2A6CE5B15CB7D5600930DD1 /* Text06.png in Resources */,
+				B2A6CE5C15CB7D5600930DD1 /* Text07.png in Resources */,
+				B2A6CE5D15CB7D5600930DD1 /* Text08.png in Resources */,
+				B2A6CE5E15CB7D5600930DD1 /* Text09.png in Resources */,
+				B2A6CE5F15CB7D5600930DD1 /* Text10.png in Resources */,
+				B2A6CE6015CB7D5600930DD1 /* Text11.png in Resources */,
+				B2A6CE6115CB7D5600930DD1 /* Text12.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B269081B15C90CED004FA84A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B269083015C90CED004FA84A /* main.m in Sources */,
+				B269083415C90CED004FA84A /* DKAppDelegate.m in Sources */,
+				B269083715C90CED004FA84A /* DKViewController.m in Sources */,
+				B262E3FA15CA402C00A261D3 /* DKCircleFlowView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B269082C15C90CED004FA84A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B269082D15C90CED004FA84A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B269083815C90CED004FA84A /* DKViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B269083915C90CED004FA84A /* en */,
+			);
+			name = DKViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B269083B15C90CED004FA84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B269083C15C90CED004FA84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B269083E15C90CED004FA84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircleFlow/CircleFlow-Prefix.pch";
+				INFOPLIST_FILE = "CircleFlow/CircleFlow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B269083F15C90CED004FA84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircleFlow/CircleFlow-Prefix.pch";
+				INFOPLIST_FILE = "CircleFlow/CircleFlow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B269081915C90CED004FA84A /* Build configuration list for PBXProject "CircleFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B269083B15C90CED004FA84A /* Debug */,
+				B269083C15C90CED004FA84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B269083D15C90CED004FA84A /* Build configuration list for PBXNativeTarget "CircleFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B269083E15C90CED004FA84A /* Debug */,
+				B269083F15C90CED004FA84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B269081615C90CED004FA84A /* Project object */;
+}
