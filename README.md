@@ -1,5 +1,16 @@
 CircleFlow
-==========
-CircleFlow is a project that revise Coverflow effect. Use core animation to build the coverflow but with round path.
-Swipe across on top of circleflow to make page change take effect. One swipe gesture make one time change. It is not like traditional coverflow with multiple page changes at one swipe.
+----------
+CircleFlow is a project that revises Coverflow effect. Use Core Animation to build Coverflow-like effect but with a half-circle path.
 
+
+###How to operate
+
+CircleFlow view will take one swipe at a time to have one page turn. It is not like traditional Coverflow with multiple pages change at once.
+
+###Who use it
+
+# ![Screenshot](https://raw.github.com/derekli66/CircleFlow/master/FamilyMartAppIcon.png)
+###[Family Mart](https://itunes.apple.com/tw/app/familymart/id431477571?mt=8)
+
+# ![Screenshot](https://raw.github.com/derekli66/CircleFlow/master/FamilyMart_CircleFlow.gif)
+Copyright: The Family Mart App icon is the trade mark belonged to Taiwan Familymart Co., LTD.
