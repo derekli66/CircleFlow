@@ -9,7 +9,7 @@ CircleFlow view will take one swipe at a time to have one page turn. It is not l
 
 ###Who use it
 ###[Family Mart](https://itunes.apple.com/tw/app/familymart/id431477571?mt=8)
-# ![Screenshot](https://raw.github.com/derekli66/CircleFlow/master/FamilyMartAppIcon.png)
+![Screenshot](https://raw.github.com/derekli66/CircleFlow/master/FamilyMartAppIcon.png)
 # ![Screenshot](https://raw.github.com/derekli66/CircleFlow/master/familymarkcircleflow.gif)
 
 
